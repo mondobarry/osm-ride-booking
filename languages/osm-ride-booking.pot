@@ -1,0 +1,576 @@
+# Copyright (C) 2026 Mamadou Alimou Barry
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: OSM Ride Booking 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mondobarry/osm-ride-booking/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-13T10:43:21+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: osm-ride-booking\n"
+
+#. Plugin Name of the plugin
+#: osm-ride-booking.php
+msgid "OSM Ride Booking"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: osm-ride-booking.php
+msgid "https://github.com/mondobarry/osm-ride-booking"
+msgstr ""
+
+#. Description of the plugin
+#: osm-ride-booking.php
+msgid "Ride booking for private drivers and shuttles: OpenStreetMap address search, route and distance-based price, availability calendar, paid through WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+#: osm-ride-booking.php
+msgid "Mamadou Alimou Barry"
+msgstr ""
+
+#. Author URI of the plugin
+#: osm-ride-booking.php
+msgid "https://mondobarry.com"
+msgstr ""
+
+#. translators: %s: weekday name
+#: includes/class-orb-availability.php:81
+#, php-format
+msgid "Not available on %s."
+msgstr ""
+
+#. translators: 1: start time, 2: end time
+#: includes/class-orb-availability.php:87
+#, php-format
+msgid "This slot is already booked (%1$s – %2$s). Next availability: %2$s."
+msgstr ""
+
+#. translators: 1: weekday name, 2: opening time, 3: closing time
+#: includes/class-orb-availability.php:91
+#, php-format
+msgid "Outside opening hours. Open on %1$s from %2$s to %3$s."
+msgstr ""
+
+#: includes/class-orb-availability.php:217
+msgid "Permission denied."
+msgstr ""
+
+#: includes/class-orb-availability.php:225
+msgid "Invalid data."
+msgstr ""
+
+#: includes/class-orb-availability.php:237
+msgid "Weekly schedule saved."
+msgstr ""
+
+#: includes/class-orb-availability.php:244
+#: includes/class-orb-availability.php:273
+#: includes/class-orb-availability.php:290
+#: includes/class-orb-woocommerce.php:129
+msgid "Invalid date."
+msgstr ""
+
+#: includes/class-orb-availability.php:256
+msgid "Exception saved."
+msgstr ""
+
+#: includes/class-orb-availability.php:265
+msgid "Exception removed."
+msgstr ""
+
+#: includes/class-orb-availability.php:282
+msgid "New link generated."
+msgstr ""
+
+#. translators: 1: weekday name, 2: opening time, 3: closing time
+#: includes/class-orb-availability.php:299
+#, php-format
+msgid "Available — %1$s from %2$s to %3$s"
+msgstr ""
+
+#. translators: %s: weekday name
+#: includes/class-orb-availability.php:301
+#, php-format
+msgid "Available — %s"
+msgstr ""
+
+#: includes/class-orb-availability.php:337
+msgid "Availability"
+msgstr ""
+
+#: includes/class-orb-availability.php:344
+#: includes/class-orb-availability.php:352
+#: includes/class-orb-settings.php:181
+#: includes/class-orb-settings.php:215
+#: includes/class-orb-settings.php:248
+#: includes/class-orb-settings.php:258
+msgid "Open"
+msgstr ""
+
+#: includes/class-orb-availability.php:345
+#: includes/class-orb-availability.php:352
+#: includes/class-orb-settings.php:180
+#: includes/class-orb-settings.php:249
+msgid "Closed"
+msgstr ""
+
+#. translators: %d: order number
+#: includes/class-orb-availability.php:369
+#, php-format
+msgid "Order #%d"
+msgstr ""
+
+#: includes/class-orb-routing.php:29
+msgid "Invalid coordinates."
+msgstr ""
+
+#: includes/class-orb-routing.php:34
+msgid "The routing service is not configured yet."
+msgstr ""
+
+#: includes/class-orb-routing.php:49
+msgid "The routing service cannot be reached. Please try again."
+msgstr ""
+
+#: includes/class-orb-routing.php:55
+#: includes/class-orb-routing.php:64
+msgid "No route found between these two addresses."
+msgstr ""
+
+#: includes/class-orb-routing.php:116
+msgid "Address search is unavailable. Please try again."
+msgstr ""
+
+#: includes/class-orb-routing.php:155
+#: includes/class-orb-routing.php:156
+msgid "Station"
+msgstr ""
+
+#: includes/class-orb-routing.php:157
+#: includes/class-orb-routing.php:158
+#: includes/class-orb-routing.php:159
+msgid "Stop"
+msgstr ""
+
+#: includes/class-orb-routing.php:160
+msgid "Tram stop"
+msgstr ""
+
+#: includes/class-orb-routing.php:161
+msgid "Bus stop"
+msgstr ""
+
+#: includes/class-orb-routing.php:162
+msgid "Bus station"
+msgstr ""
+
+#: includes/class-orb-routing.php:163
+msgid "Airport"
+msgstr ""
+
+#: includes/class-orb-routing.php:164
+msgid "Terminal"
+msgstr ""
+
+#: includes/class-orb-routing.php:165
+msgid "Taxi rank"
+msgstr ""
+
+#: includes/class-orb-settings.php:24
+msgid "Settings"
+msgstr ""
+
+#: includes/class-orb-settings.php:30
+#: includes/class-orb-settings.php:199
+#: includes/class-orb-woocommerce.php:40
+msgid "Ride booking"
+msgstr ""
+
+#: includes/class-orb-settings.php:39
+msgid "OpenRouteService API key"
+msgstr ""
+
+#: includes/class-orb-settings.php:40
+msgid "Free key (2,000 routes a day) at openrouteservice.org. Stored in your database only."
+msgstr ""
+
+#: includes/class-orb-settings.php:41
+msgid "Countries for address search"
+msgstr ""
+
+#: includes/class-orb-settings.php:42
+msgid "Two-letter codes separated by commas, e.g. fr,be,ch. Empty = your store country."
+msgstr ""
+
+#: includes/class-orb-settings.php:44
+msgid "Price per km"
+msgstr ""
+
+#: includes/class-orb-settings.php:45
+msgid "Price per km, long trips"
+msgstr ""
+
+#: includes/class-orb-settings.php:46
+msgid "Applies to the whole trip when it is longer than the threshold below."
+msgstr ""
+
+#: includes/class-orb-settings.php:47
+msgid "Long trip threshold (km)"
+msgstr ""
+
+#: includes/class-orb-settings.php:48
+msgid "0 = always use the standard price."
+msgstr ""
+
+#: includes/class-orb-settings.php:49
+msgid "Minimum fare"
+msgstr ""
+
+#: includes/class-orb-settings.php:50
+msgid "Prices follow your WooCommerce tax settings (entered with or without tax)."
+msgstr ""
+
+#: includes/class-orb-settings.php:52
+msgid "Minimum notice (minutes)"
+msgstr ""
+
+#: includes/class-orb-settings.php:53
+msgid "How long before pickup a ride can still be booked online."
+msgstr ""
+
+#: includes/class-orb-settings.php:54
+msgid "Buffer around rides (minutes)"
+msgstr ""
+
+#: includes/class-orb-settings.php:55
+msgid "Time blocked before and after each paid ride."
+msgstr ""
+
+#: includes/class-orb-settings.php:56
+msgid "One ride at a time"
+msgstr ""
+
+#: includes/class-orb-settings.php:57
+msgid "Refuse a booking that overlaps a paid ride (single vehicle). Untick if you run several vehicles."
+msgstr ""
+
+#: includes/class-orb-settings.php:58
+msgid "Show estimated duration"
+msgstr ""
+
+#: includes/class-orb-settings.php:59
+msgid "Untick if traffic makes travel times unreliable in your area."
+msgstr ""
+
+#: includes/class-orb-settings.php:61
+msgid "Enable peak-hour surcharge"
+msgstr ""
+
+#: includes/class-orb-settings.php:62
+msgid "Surcharge (%)"
+msgstr ""
+
+#: includes/class-orb-settings.php:63
+msgid "Days"
+msgstr ""
+
+#: includes/class-orb-settings.php:64
+msgid "Pickup time slots"
+msgstr ""
+
+#: includes/class-orb-settings.php:65
+msgid "Format HH:MM-HH:MM, separated by commas."
+msgstr ""
+
+#: includes/class-orb-settings.php:66
+msgid "No surcharge on French public holidays"
+msgstr ""
+
+#: includes/class-orb-settings.php:67
+msgid "Zone (GeoJSON, optional)"
+msgstr ""
+
+#: includes/class-orb-settings.php:68
+msgid "Paste a GeoJSON Polygon, MultiPolygon or FeatureCollection: the surcharge then applies only when pickup or drop-off is inside. Empty = everywhere."
+msgstr ""
+
+#: includes/class-orb-settings.php:70
+#: includes/class-orb-settings.php:81
+msgid "Legal notice"
+msgstr ""
+
+#: includes/class-orb-settings.php:71
+msgid "Shown on the booking form, cart, checkout, order pages and emails. Example for a French VTC operator: \"Service de voiture de transport avec chauffeur — réservation préalable (art. R3120-2 du Code des transports). Exploitant : [raison sociale], [adresse], SIREN [numéro].\""
+msgstr ""
+
+#: includes/class-orb-settings.php:77
+msgid "Map and route services"
+msgstr ""
+
+#: includes/class-orb-settings.php:78
+msgid "Pricing"
+msgstr ""
+
+#: includes/class-orb-settings.php:79
+msgid "Booking rules"
+msgstr ""
+
+#. translators: 1: surcharge percentage, 2: price before surcharge
+#: includes/class-orb-settings.php:80
+#: includes/class-orb-woocommerce.php:162
+#: templates/booking-form.php:43
+msgid "Peak-hour surcharge"
+msgstr ""
+
+#: includes/class-orb-settings.php:158
+msgid "The surcharge zone is not valid GeoJSON with at least one polygon; it was not changed."
+msgstr ""
+
+#: includes/class-orb-settings.php:178
+msgid "Saving…"
+msgstr ""
+
+#: includes/class-orb-settings.php:179
+#: includes/class-orb-settings.php:232
+msgid "Save schedule"
+msgstr ""
+
+#: includes/class-orb-settings.php:182
+msgid "Error"
+msgstr ""
+
+#: includes/class-orb-settings.php:183
+msgid "Connection error."
+msgstr ""
+
+#: includes/class-orb-settings.php:184
+msgid "Bookings"
+msgstr ""
+
+#. translators: %s: time range
+#: includes/class-orb-settings.php:186
+#, php-format
+msgid "Blocked: %s"
+msgstr ""
+
+#: includes/class-orb-settings.php:187
+msgid "Order"
+msgstr ""
+
+#: includes/class-orb-settings.php:188
+msgid "Remove this exception? The weekly schedule will apply again."
+msgstr ""
+
+#: includes/class-orb-settings.php:189
+msgid "Generate a new link? The current one will stop working."
+msgstr ""
+
+#: includes/class-orb-settings.php:190
+msgid "Link copied."
+msgstr ""
+
+#. translators: %s: shortcode
+#: includes/class-orb-settings.php:203
+#, php-format
+msgid "Add the booking form to any page with the shortcode %s."
+msgstr ""
+
+#: includes/class-orb-settings.php:211
+msgid "Opening hours"
+msgstr ""
+
+#: includes/class-orb-settings.php:214
+msgid "Day"
+msgstr ""
+
+#: includes/class-orb-settings.php:216
+msgid "Hours"
+msgstr ""
+
+#: includes/class-orb-settings.php:234
+msgid "Calendar and exceptions"
+msgstr ""
+
+#: includes/class-orb-settings.php:235
+msgid "Click a day to close it or change its hours (holiday, leave…). Paid rides are shown on each day."
+msgstr ""
+
+#: includes/class-orb-settings.php:250
+msgid "Exception"
+msgstr ""
+
+#: includes/class-orb-settings.php:251
+msgid "Paid rides"
+msgstr ""
+
+#: includes/class-orb-settings.php:260
+msgid "Reason (optional)"
+msgstr ""
+
+#: includes/class-orb-settings.php:263
+msgid "Save"
+msgstr ""
+
+#: includes/class-orb-settings.php:264
+msgid "Remove exception"
+msgstr ""
+
+#: includes/class-orb-settings.php:265
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-orb-settings.php:270
+msgid "Calendar sync (iCal)"
+msgstr ""
+
+#: includes/class-orb-settings.php:271
+msgid "Subscribe to this private link in Google Calendar, Apple Calendar or Outlook. It contains your customers' addresses: do not share it."
+msgstr ""
+
+#: includes/class-orb-settings.php:274
+msgid "Copy"
+msgstr ""
+
+#: includes/class-orb-settings.php:275
+msgid "Generate a new link"
+msgstr ""
+
+#: includes/class-orb-shortcode.php:42
+#: includes/class-orb-woocommerce.php:154
+msgid "Pickup"
+msgstr ""
+
+#: includes/class-orb-shortcode.php:43
+#: includes/class-orb-woocommerce.php:155
+msgid "Destination"
+msgstr ""
+
+#: includes/class-orb-shortcode.php:44
+msgid "Calculating the route…"
+msgstr ""
+
+#: includes/class-orb-shortcode.php:45
+msgid "The route could not be calculated."
+msgstr ""
+
+#: includes/class-orb-shortcode.php:46
+msgid "Connection error. Please try again."
+msgstr ""
+
+#: includes/class-orb-shortcode.php:47
+msgid "Please choose the date, time, pickup and destination."
+msgstr ""
+
+#: includes/class-orb-shortcode.php:48
+msgid "Please wait for the route to be calculated."
+msgstr ""
+
+#: includes/class-orb-shortcode.php:49
+msgid "This date or time is not available."
+msgstr ""
+
+#: includes/class-orb-shortcode.php:50
+msgid "The date cannot be in the past."
+msgstr ""
+
+#. translators: %s: earliest pickup time
+#: includes/class-orb-shortcode.php:52
+#, php-format
+msgid "Rides must be booked in advance. Earliest pickup today: %s."
+msgstr ""
+
+#: includes/class-orb-shortcode.php:53
+msgid "Booking…"
+msgstr ""
+
+#: includes/class-orb-shortcode.php:54
+#: templates/booking-form.php:56
+msgid "Book now"
+msgstr ""
+
+#. translators: 1: surcharge percentage, 2: list of time slots
+#: includes/class-orb-shortcode.php:56
+#, php-format
+msgid "Peak-hour surcharge of %1$s %% for pickups between %2$s."
+msgstr ""
+
+#: includes/class-orb-woocommerce.php:71
+msgid "Please fill in every field."
+msgstr ""
+
+#: includes/class-orb-woocommerce.php:112
+msgid "The booking could not be added to the cart."
+msgstr ""
+
+#: includes/class-orb-woocommerce.php:115
+msgid "Booking added to your cart."
+msgstr ""
+
+#. translators: %s: earliest date and time a ride can be booked for
+#: includes/class-orb-woocommerce.php:133
+#, php-format
+msgid "Rides must be booked in advance. Earliest pickup: %s."
+msgstr ""
+
+#: includes/class-orb-woocommerce.php:156
+#: templates/booking-form.php:14
+msgid "Date"
+msgstr ""
+
+#: includes/class-orb-woocommerce.php:157
+msgid "Time"
+msgstr ""
+
+#: includes/class-orb-woocommerce.php:158
+#: templates/booking-form.php:41
+msgid "Distance"
+msgstr ""
+
+#. translators: 1: surcharge percentage, 2: price before surcharge
+#: includes/class-orb-woocommerce.php:162
+#, php-format
+msgid "+%1$d %% included (base price %2$s)"
+msgstr ""
+
+#: osm-ride-booking.php:50
+msgid "OSM Ride Booking requires WooCommerce. Please install and activate WooCommerce."
+msgstr ""
+
+#: templates/booking-form.php:18
+msgid "Pickup time"
+msgstr ""
+
+#: templates/booking-form.php:26
+msgid "Pickup address"
+msgstr ""
+
+#: templates/booking-form.php:27
+#: templates/booking-form.php:33
+msgid "Start typing an address…"
+msgstr ""
+
+#: templates/booking-form.php:32
+msgid "Destination address"
+msgstr ""
+
+#: templates/booking-form.php:38
+msgid "Route map"
+msgstr ""
+
+#: templates/booking-form.php:42
+msgid "Estimated duration"
+msgstr ""
+
+#: templates/booking-form.php:44
+msgid "Price"
+msgstr ""
+
+#: templates/booking-form.php:47
+msgid "Taxes are added at checkout."
+msgstr ""
